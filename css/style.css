@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Prata&family=Rubik:wght@300;400;500&display=swap');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --main-bg: #000;
+    --main-content: #fff;
+    --fs-h1: 2.5rem;
+    --fs-h2: 2rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1;
+    margin: 0;
+    font-family: 'Prata', serif;
+}
+
+h1 { font-size: var(--fs-h1) }
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--main-bg);
+    color: var(--main-content);
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.nav-bar{
+    margin-top: 0;
+}
+.nav__list{
+    display: flex;
+}
+.nav__item{
+    list-style: none;
+    padding: 0 1rem;
+}
+.nav__link{
+    text-decoration: none;
+    color: var(--main-content);
+    font-size: var(--fs-h3);
+}
+.btn{
+   
+    transition: transform 200ms ease-in-out;
+    cursor: pointer;
+    display: inline-block;
+    padding: .5em 2.5em;
+    background: #f3f335;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Prata', serif;
+}
+.intro{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.main__intro{
+    display: block;
+    margin-top: .5em;
+}
+.company-logos{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+.site-section{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    display: flex;
+
+}
+.spense__title{
+    margin-top: 2rem;
+}
+.about-info{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #303030;
+    padding: 3rem 15rem;
+}
+.new__line{
+    display: block;
+    padding-top: .3rem;
+}
+.about__2{
+    padding-top: 2rem;
+}
+.work-with-us{
+    margin: 5rem 15rem;
+}
+.footer{
+    display:flex; 
+    justify-content: space-between;
+    background-color: #303030;
+    margin-bottom: 0;
+    height: 70px;
+    padding: 1.5rem 15rem;
+}
+.social__icons{
+
+    cursor: pointer;
+}
+.social__icons img{
+    padding: 0 1rem;
+}
