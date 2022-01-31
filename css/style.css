@@ -57,6 +57,22 @@ body{
     color: var(--main-content);
     font-size: var(--fs-h3);
 }
+.nav-toggle{
+    display: none;
+}
+@media (min-width: 600px){
+.nav-toggle {
+    padding: .5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
+}
+
+}
 .btn{
    
     transition: transform 200ms ease-in-out;
